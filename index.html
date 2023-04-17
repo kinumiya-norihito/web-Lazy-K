@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lazy K</title>
+    <link rel="stylesheet" href="main.css">
+    <!--<script src="temp.js"></script>-->
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div>
+        <details>
+            <summary>
+                規則
+            </summary>
+            <textarea id="lambda">S,(\[0].(\[1].(\[2].[0][2]([1][2]))))
+K,(\[0].(\[1].[0]))
+I,(\[0].[0])</textarea>
+        </details>
+
+        <button id="run_button">実行</button>
+        <button id="step_button">1step</button>
+    </div>
+    <div>
+        <textarea id="code_area"></textarea>
+    </div>
+
+</body>
+
+</html>
